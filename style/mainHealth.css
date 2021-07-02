@@ -1,0 +1,96 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #56c523;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elemento base */
+
+body{
+    background: url('/img/capa.jpg') center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+header .navbar{
+    height: 80px;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme principal*/
+
+.corpo {
+    font-size: 16px;
+    height: 600px;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.formLogin {
+    margin: auto;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.titulo{
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 12%;
+}
+
+.sinopse{
+    width: 400px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.botao{
+    border: none;
+    background-color: rgba(0,0,0,.50);
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 10px;
+    margin-left: 10%;
+    font-size: 12px;
+    transition: .4s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.box-filmes{
+    margin-top: 5px;
+    height: 30%;
+    width: 30%;
+    display: block;
+}
+

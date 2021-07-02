@@ -1,0 +1,48 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #56c523;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elemento base */
+
+body{
+    background: url('/img/capa.jpg') center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+header .navbar{
+    height: 80px;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme principal*/
+
+.card {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: chartreuse;
+}
+
+.card-img-top {
+    padding: 7px;
+}
