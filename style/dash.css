@@ -1,19 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* elemento base */
-
-.card {
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
-
-.card-img-top {
-    padding: 7px;
+.card{
+    margin-bottom: 10px;
 }
 
 .card-text{
